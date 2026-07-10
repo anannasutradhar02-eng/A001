@@ -128,3 +128,91 @@
 font-size: 20px;
 font-weight: bold;
 }
+/* speaker css end */
+.card{
+
+    border:1px solid #ddd;
+
+    border-radius:12px;
+
+    padding:25px;
+    flex: 1;
+    
+
+}
+.card h5{
+    font-size: 13px;
+    font-weight: 600;
+    color: #888888;
+}
+.card h2{
+    font-size: 44px;
+    font-weight: bold;
+    color: #0D1B2A;
+}
+.card p{
+    font-size: 13px;
+    color: #888888;
+}
+.card ul{
+  padding-left:20px;
+  margin:20px 0;
+}.card button{
+    background-color: white;
+    color: #2563EB;
+    border: 1px solid #2563EB;
+    border-radius: 10px;
+     padding: 8px 100px;
+    cursor: pointer;
+}
+.pricing-card{
+    display: flex;
+    flex-direction: row;
+     gap: 25px;
+     padding: 50px;
+}
+
+.price-section h2{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 70px;
+}
+.price-section p{
+    font-size: 16px;
+    color: #575757;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.price-section{
+    width: 90%;
+    margin: 80px auto;
+}
+.card-middle{
+    background-color:   #111827;
+    color: white;
+     border:1px solid #ddd;
+      transform: translateY(-12px);
+    border-radius:12px;
+
+    padding:25px;
+    flex: 1;
+    
+}
+.card-middle p{
+    color: rgba(255, 255, 255, 0.7); 
+}
+.card-middle ul li{
+    color: rgba(255, 255, 255, 0.7);
+}
+.card-middle button{
+   
+    background-color: #2563EB;
+    color: white;
+   
+    border-radius: 10px;
+     padding: 8px 100px;
+     margin-top: 36px;
+    cursor: pointer;
+}
